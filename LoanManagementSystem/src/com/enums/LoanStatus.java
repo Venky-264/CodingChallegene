@@ -1,5 +1,5 @@
 package com.enums;
 
 public enum LoanStatus {
-	PENDING,APPROVED
+	PENDING,APPROVED,REJECTED
 }
