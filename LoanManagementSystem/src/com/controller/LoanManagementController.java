@@ -29,7 +29,10 @@ public class LoanManagementController {
 			System.out.println("press 7. to dsiplay loan by Id");
 			System.out.println("press 0. to exit...");
 
-			int choice = sc.nextInt();
+			int choice =0;
+			if(sc.hasNext()) {
+				choice = sc.nextInt();
+			}
 
 			if (choice == 0) {
 				System.out.println("EXITING....");
